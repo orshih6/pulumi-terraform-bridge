@@ -3487,8 +3487,9 @@ func TestPreConfigureCallbackEmitsFailures(t *testing.T) {
 					return CheckFailureError{
 						[]CheckFailureErrorElement{
 							{
-								Reason: "no credentials",
-								Hint:   pulumirpc.Hint_HINT_DYNAMIC_CREDENTIALS,
+								Reason:      "no credentials",
+								Hint:        pulumirpc.Hint_HINT_DYNAMIC_CREDENTIALS,
+								HintMessage: "Use Pulumi ESC",
 							},
 						},
 					}
@@ -3508,7 +3509,8 @@ func TestPreConfigureCallbackEmitsFailures(t *testing.T) {
 				"failures": [
 					{
 						"reason": "no credentials",
-						"hint": "HINT_DYNAMIC_CREDENTIALS"
+						"hint": "HINT_DYNAMIC_CREDENTIALS",
+						"hintMessage": "Use Pulumi ESC"
 					}
 				]
 			}

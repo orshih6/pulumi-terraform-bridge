@@ -747,8 +747,9 @@ func TestPFPreConfigureCallback(t *testing.T) {
 			return tfbridge0.CheckFailureError{
 				Failures: []tfbridge0.CheckFailureErrorElement{
 					{
-						Reason: "No credentials",
-						Hint:   pulumirpc.Hint_HINT_DYNAMIC_CREDENTIALS,
+						Reason:      "No credentials",
+						Hint:        pulumirpc.Hint_HINT_DYNAMIC_CREDENTIALS,
+						HintMessage: "Use Pulumi ESC",
 					},
 				},
 			}
@@ -771,7 +772,8 @@ func TestPFPreConfigureCallback(t *testing.T) {
 			"inputs": {},
 			"failures": [{
 				"reason": "No credentials",
-				"hint": "HINT_DYNAMIC_CREDENTIALS"
+				"hint": "HINT_DYNAMIC_CREDENTIALS",
+				"hintMessage": "Use Pulumi ESC"
 			}]
 		  }
 		}`)

@@ -200,6 +200,8 @@ type CheckFailureErrorElement struct {
 	// Hint names a product hint that is relevant to this failure, such as HINT_DYNAMIC_CREDENTIALS. The Pulumi CLI may
 	// show it to the user.
 	Hint pulumirpc.Hint
+	// HintMessage is the text of Hint, which the Pulumi CLI shows if it decides to show the hint.
+	HintMessage string
 }
 
 // CheckFailureError can be returned from a PreConfigureCallback to indicate that the
@@ -526,9 +528,10 @@ func makeCheckResponseFromCheckErr(err CheckFailureError) *pulumirpc.CheckRespon
 	failures := make([]*pulumirpc.CheckFailure, len(err.Failures))
 	for i, failure := range err.Failures {
 		failures[i] = &pulumirpc.CheckFailure{
-			Reason:   failure.Reason,
-			Property: failure.Property,
-			Hint:     failure.Hint,
+			Reason:      failure.Reason,
+			Property:    failure.Property,
+			Hint:        failure.Hint,
+			HintMessage: failure.HintMessage,
 		}
 	}
 	return &pulumirpc.CheckResponse{
