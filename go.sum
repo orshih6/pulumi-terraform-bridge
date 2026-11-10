@@ -533,8 +533,8 @@ github.com/keybase/go-crypto v0.0.0-20161004153544-93f5b35093ba/go.mod h1:ghbZsc
 github.com/kisielk/errcheck v1.2.0/go.mod h1:/BMXB+zMLi60iA8Vv6Ksmxu/1UDYcXs4uQLJ+jE2L00=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
-github.com/klauspost/compress v1.18.7 h1:aUyZsS4kH3QTKurYhAOwAHxllVPnOthb3vPfnF1Ehjw=
-github.com/klauspost/compress v1.18.7/go.mod h1:cwPg85FWrGar70rWktvGQj8/hthj3wpl0PGDogxkrSQ=
+github.com/klauspost/compress v1.20.2 h1:v5tiZvm1KGLyg5d5oXdXe3lsSPrbEUiKoXGia//I7Qo=
+github.com/klauspost/compress v1.20.2/go.mod h1:LUdAzn7YLVvxLpc7y3V1m40wESHTgc1422pwwBSKYuI=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
 github.com/kr/pretty v0.3.1/go.mod h1:hoEshYVHaxMs3cyo3Yncou5ZscifuDolrwPKZanG3xk=
@@ -698,10 +698,10 @@ github.com/pulumi/pulumi-java v1.37.8 h1:ZNdiBViwGTWv+MfDxkUg+tl0KQ01EUDT3ooGGnU
 github.com/pulumi/pulumi-java v1.37.8/go.mod h1:MUOvT4u2U2dZSGDNlLwIGi5/QdTDtTCVZoUAts8cAEQ=
 github.com/pulumi/pulumi-yaml v1.38.14 h1:OvimOxftgohzMa9V0GggwmW4K05/Ecf5JSPksX9+ZWM=
 github.com/pulumi/pulumi-yaml v1.38.14/go.mod h1:OESoA1UbCJCeqW8hnEDng1+RE1nvCqtUSKBDCS4xKxM=
-github.com/pulumi/pulumi/pkg/v3 v3.274.2-0.20261106140924-a26a83d2892b h1:Vdi7TEyKWPslvQI8mO2crCGZJwkf9tXmuZMQJvBKvkA=
-github.com/pulumi/pulumi/pkg/v3 v3.274.2-0.20261106140924-a26a83d2892b/go.mod h1:sVdXJHYfpyk0okp6pR+pmOMLcyzppM4ftCv45huePTg=
-github.com/pulumi/pulumi/sdk/v3 v3.274.2-0.20261106140924-a26a83d2892b h1:I7YXm+TSRPzAqwsWQ9l8KV/xGM9GeSSPlYoC7KFhbEs=
-github.com/pulumi/pulumi/sdk/v3 v3.274.2-0.20261106140924-a26a83d2892b/go.mod h1:n81QNitoy9C+GpT+Y2jJhDwWDOftXDRbLQOSlmOGgRc=
+github.com/pulumi/pulumi/pkg/v3 v3.274.2-0.20261110151331-a9e1466b2a6c h1:NqUwwF9l4/2T+vsMcbJjTX+4iD9KB2xfzQtZ3R1DLfw=
+github.com/pulumi/pulumi/pkg/v3 v3.274.2-0.20261110151331-a9e1466b2a6c/go.mod h1:dbQFk40xoKlZRNcMyucUdYENQ6cMK4hzvo9tbjqzXxo=
+github.com/pulumi/pulumi/sdk/v3 v3.274.2-0.20261110151331-a9e1466b2a6c h1:y1Psk/rC4ihx92w6r+XEoAq/Agnv2GGkt7T2un6Niyg=
+github.com/pulumi/pulumi/sdk/v3 v3.274.2-0.20261110151331-a9e1466b2a6c/go.mod h1:WnPO90tGSd4h5BDTfK4BeDZ/b2Rsq7bhZ2yEcfvScEc=
 github.com/pulumi/terraform-diff-reader v0.0.2 h1:kTE4nEXU3/SYXESvAIem+wyHMI3abqkI3OhJ0G04LLI=
 github.com/pulumi/terraform-diff-reader v0.0.2/go.mod h1:sZ9FUzGO+yM41hsQHs/yIcj/Y993qMdBxBU5mpDmAfQ=
 github.com/rhysd/go-fakeio v1.0.0 h1:+TjiKCOs32dONY7DaoVz/VPOdvRkPfBkEyUDIpM8FQY=
