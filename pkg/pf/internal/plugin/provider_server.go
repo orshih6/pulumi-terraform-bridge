@@ -270,13 +270,12 @@ func (p *providerServer) CheckConfig(ctx context.Context,
 }
 
 func marshalCommandRemediations(remediations []pl.CommandRemediation) []*pulumirpc.CommandRemediation {
-	var rpcRemediations []*pulumirpc.CommandRemediation
+	rpcRemediations := make([]*pulumirpc.CommandRemediation, 0, len(remediations))
 	for _, r := range remediations {
 		rpcRemediations = append(rpcRemediations, &pulumirpc.CommandRemediation{
 			Description: r.Description,
 			Command:     r.Command,
 			Env:         r.Env,
-			Interactive: r.Interactive,
 		})
 	}
 	return rpcRemediations

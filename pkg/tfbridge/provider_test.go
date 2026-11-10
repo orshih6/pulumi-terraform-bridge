@@ -3487,7 +3487,6 @@ func TestPreConfigureCallbackEmitsFailures(t *testing.T) {
 								Description: "Sign in",
 								Command:     []string{"cloud", "login", "--profile", "dev"},
 								Env:         map[string]string{"CLOUD_NO_WIZARD": "true"},
-								Interactive: true,
 							}},
 						}},
 					}
@@ -3511,8 +3510,7 @@ func TestPreConfigureCallbackEmitsFailures(t *testing.T) {
 							{
 								"description": "Sign in",
 								"command": ["cloud", "login", "--profile", "dev"],
-								"env": { "CLOUD_NO_WIZARD": "true" },
-								"interactive": true
+								"env": { "CLOUD_NO_WIZARD": "true" }
 							}
 						]
 					}
